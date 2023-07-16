@@ -1,0 +1,33 @@
+.nav_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_left h3{
+    font-size: large;
+    font-family:Arial, sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 0 4%;
+}
+.nav-mid button{
+    margin: 0 10px;
+}
+.home,.cart{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.cart:focus{
+    background-color: rgb(255, 119, 82);
+}
+.home:focus{
+    background-color: rgb(255, 119, 82);
+}

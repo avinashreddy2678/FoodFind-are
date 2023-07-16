@@ -1,0 +1,14 @@
+.main{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cartcard{
+    padding:0.7%;
+    width: 80vw;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
